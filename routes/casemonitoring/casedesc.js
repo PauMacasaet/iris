@@ -31,7 +31,7 @@ router8.post('/', (request, response, next) => {
             if (err) return next(err);
 
             console.log('NEW case CREATED');
-            response.redirect('/glocalid');
+            response.redirect('/casedesc');
         }
     );
 });
